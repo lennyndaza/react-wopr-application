@@ -5,7 +5,7 @@ type at it like the real thing, work through its game menu, and either play
 tic-tac-toe against an unbeatable AI or run the "Global Thermonuclear War"
 simulation to watch it arrive at the same conclusion Joshua does in the film.
 
-![WOPR terminal main menu](screenshots/03-global-thermonuclear-war.png)
+![WOPR terminal main menu](screenshots/01-wopr-terminal.png)
 
 ## What it does
 

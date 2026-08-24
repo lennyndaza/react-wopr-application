@@ -1,0 +1,57 @@
+*
+{
+  box-sizing: border-box;
+}
+
+:root
+{
+  --phosphor: #33ff33;
+  --phosphor-dim: #1c8f1c;
+  --phosphor-bright: #7fff7f;
+  --bg: #010401;
+  --amber-alert: #ff3b3b;
+  --map-blue: #3aa0ff;
+}
+
+html, body
+{
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--phosphor);
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root
+{
+  height: 100vh;
+  width: 100vw;
+}
+
+::selection
+{
+  background: var(--phosphor);
+  color: #000;
+}
+
+button
+{
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* scrollbar, terminal-flavored */
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+::-webkit-scrollbar-track
+{
+  background: #000;
+}
+::-webkit-scrollbar-thumb
+{
+  background: var(--phosphor-dim);
+}
